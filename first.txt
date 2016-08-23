@@ -1,0 +1,384 @@
+[INFO] 17:50:37 graphyte.py:67 Starting Graphyte....
+[INFO] 17:50:37 graphyte.py:121 Loading dut: sample_dut, config: {u'link_options': {u'link_class': u'ADBLink'}, u'config_name': u'Sample DUT Config'}
+[INFO] 17:50:37 graphyte.py:121 Loading inst: anritsu_mt8870a, config: {u'link_options': {u'port': 56001, u'ipaddress': u'192.168.1.1', u'board': 0, u'link_class': u'TCPIPLink'}, u'sample_number': 10}
+[INFO] 17:50:38 graphyte.py:77 DUT & Inst load complete...
+[INFO] 17:50:38 testplan.py:100 Loading test config file: anritsu_testplan.csv
+[DEBUG] 17:50:38 testplan.py:121 test_config: {'Test plan version': 1}
+[DEBUG] 17:50:38 testplan.py:121 test_config: {'order_by': ['component_name', 'center_freq'], 'Test plan version': 1}
+[DEBUG] 17:50:38 testplan.py:152 arg_keys: ['long_preamble', 'nss', 'data_rate', 'center_freq', 'test_type', 'standard', 'rf_type', 'bandwidth', 'chain_mask', 'power_level', 'component_name']
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2412, 'TX', 'B', 'WLAN', 20, 1, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2412, 'TX', 'B', 'WLAN', 20, 2, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2412, 'TX', 'B', 'WLAN', 20, 3, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2437, 'TX', 'B', 'WLAN', 20, 1, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2437, 'TX', 'B', 'WLAN', 20, 2, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2437, 'TX', 'B', 'WLAN', 20, 3, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2462, 'TX', 'B', 'WLAN', 20, 1, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2462, 'TX', 'B', 'WLAN', 20, 2, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 1, 2462, 'TX', 'B', 'WLAN', 20, 3, 18, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:152 arg_keys: ['long_preamble', 'nss', 'data_rate', 'center_freq', 'test_type', 'standard', 'rf_type', 'bandwidth', 'rx_num_packets', 'chain_mask', 'power_level', 'component_name']
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2412, 'RX', 'B', 'WLAN', 20, 100, 1, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2412, 'RX', 'B', 'WLAN', 20, 100, 2, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2412, 'RX', 'B', 'WLAN', 20, 100, 3, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2437, 'RX', 'B', 'WLAN', 20, 100, 1, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2437, 'RX', 'B', 'WLAN', 20, 100, 2, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2437, 'RX', 'B', 'WLAN', 20, 100, 3, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2462, 'RX', 'B', 'WLAN', 20, 100, 1, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2462, 'RX', 'B', 'WLAN', 20, 100, 2, -90, 'WLAN_2G')
+[DEBUG] 17:50:38 testplan.py:154 arg_values: (0, None, 11, 2462, 'RX', 'B', 'WLAN', 20, 100, 3, -90, 'WLAN_2G')
+[INFO] 17:50:38 port_config.py:50 *SSC*: PortConfig __init__
+[INFO] 17:50:38 port_config.py:56 Load port config file: C:\Data\15. Google\GRaPHYTe\20160811\graphyte 8-11-2016\graphyte\graphyte\config_files\anritsu_port_config.json
+[DEBUG] 17:50:38 utils.py:66 file path anritsu_result.csv is not absolute, assign to default log folder
+[INFO] 17:50:38 anritsu_mt8870a.py:38 Inst Initialize
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: *IDN?
+[INFO] 17:50:38 tcpip.py:80 Instrument ID: ANRITSU,MU887000A,6201517628,02.08.12
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: *RST
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: SYST:LANG SCPI
+[INFO] 17:50:38 anritsu_mt8870a.py:152 Inst LockInstrument
+[INFO] 17:50:38 anritsu_mt8870a.py:49 Inst SelfCalibrate
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:CAL:BAND:STAR:TEMP 2.0
+[INFO] 17:50:38 anritsu_mt8870a.py:53 Uploading Pathloss
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:DEL 1,1000
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: ROUT:EXTL:TABL:SWIT ON
+[INFO] 17:50:38 anritsu_mt8870a.py:60 **SSC Wireless Standard Selected: WLAN_5G
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 0
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5180MHZ,0.00,0.00,0.00,0.00,21.2,21.2,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5230MHZ,0.00,0.00,0.00,0.00,21.2,21.2,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5280MHZ,0.00,0.00,0.00,0.00,21.2,21.2,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5330MHZ,0.00,0.00,0.00,0.00,21.21,21.21,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5380MHZ,0.00,0.00,0.00,0.00,21.22,21.22,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5430MHZ,0.00,0.00,0.00,0.00,21.24,21.24,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5480MHZ,0.00,0.00,0.00,0.00,21.25,21.25,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5530MHZ,0.00,0.00,0.00,0.00,21.26,21.26,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5580MHZ,0.00,0.00,0.00,0.00,21.27,21.27,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5630MHZ,0.00,0.00,0.00,0.00,21.28,21.28,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5680MHZ,0.00,0.00,0.00,0.00,21.29,21.29,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5730MHZ,0.00,0.00,0.00,0.00,21.3,21.3,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5780MHZ,0.00,0.00,0.00,0.00,21.3,21.3,0.00,0.00
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5180MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.2,22.2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5230MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.2,22.2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5280MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.2,22.2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5330MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.21,22.21
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5380MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.22,22.22
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5430MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.24,22.24
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5480MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.25,22.25
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5530MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.26,22.26
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5580MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.27,22.27
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5630MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.28,22.28
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5680MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.29,22.29
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5730MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.3,22.3
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 5780MHZ,0.00,0.00,0.00,0.00,0.00,0.00,22.3,22.3
+[INFO] 17:50:38 anritsu_mt8870a.py:60 **SSC Wireless Standard Selected: WLAN_2G
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 0
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2402MHZ,0.00,0.00,0.00,0.00,20.5,20.5,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2427MHZ,0.00,0.00,0.00,0.00,20.6,20.6,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2452MHZ,0.00,0.00,0.00,0.00,20.7,20.7,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2477MHZ,0.00,0.00,0.00,0.00,20.76,20.76,0.00,0.00
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2402MHZ,0.00,0.00,0.00,0.00,0.00,0.00,19.5,19.5
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2427MHZ,0.00,0.00,0.00,0.00,0.00,0.00,19.6,19.6
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2452MHZ,0.00,0.00,0.00,0.00,0.00,0.00,19.7,19.7
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 2
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2477MHZ,0.00,0.00,0.00,0.00,0.00,0.00,19.76,19.76
+[INFO] 17:50:38 anritsu_mt8870a.py:60 **SSC Wireless Standard Selected: 802_15_4
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 0
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2402MHZ,20.5,20.5,0.00,0.00,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2427MHZ,20.6,20.6,0.00,0.00,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2452MHZ,20.7,20.7,0.00,0.00,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2477MHZ,20.76,20.76,0.00,0.00,0.00,0.00,0.00,0.00
+[INFO] 17:50:38 anritsu_mt8870a.py:60 **SSC Wireless Standard Selected: BLUETOOTH
+[INFO] 17:50:38 anritsu_mt8870a.py:64 **SSC DUT Antenna Port Selected: 0
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2402MHZ,0.00,0.00,20.5,20.5,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2427MHZ,0.00,0.00,20.6,20.6,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2452MHZ,0.00,0.00,20.7,20.7,0.00,0.00,0.00,0.00
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:SETT 1
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CALC:EXTL:TABL:VAL:ALL 2477MHZ,0.00,0.00,20.76,20.76,0.00,0.00,0.00,0.00
+[INFO] 17:50:38 sample_dut.py:25 DUT Initialize
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2412 B 1 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 sample_dut.py:32 DUT Wlan Initialize
+[INFO] 17:50:38 anritsu_mt8870a.py:163 Inst WLAN Initialize
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: INST SRW
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:CLE
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:APP AUTOOFDM
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G TX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSA0:2', u'VSA0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402E10>, <graphyte.port_config.PathlossTable object at 0x02402DF0>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2412 B 1 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2412 B 1 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2412 B 11 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G RX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSG0:2', u'VSG0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402FB0>, <graphyte.port_config.PathlossTable object at 0x02411030>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2412 B 11 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2412 B 11 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2437 B 1 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G TX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSA0:2', u'VSA0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402E10>, <graphyte.port_config.PathlossTable object at 0x02402DF0>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2437 B 1 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2437 B 1 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2437 B 11 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G RX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSG0:2', u'VSG0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402FB0>, <graphyte.port_config.PathlossTable object at 0x02411030>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2437 B 11 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2437 B 11 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2462 B 1 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G TX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSA0:2', u'VSA0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402E10>, <graphyte.port_config.PathlossTable object at 0x02402DF0>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2462 B 1 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G TX 2462 B 1 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:40 DUT Wlan TxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:174 Wlan TxConfig
+[INFO] 17:50:38 sample_dut.py:45 DUT Wlan TxStart
+[INFO] 17:50:38 anritsu_mt8870a.py:180 Wlan TxMeasure
+[INFO] 17:50:38 sample_dut.py:48 DUT Wlan TxStop
+[INFO] 17:50:38 anritsu_mt8870a.py:185 Wlan TxGetResult. Result limit: {'evm': (None, -25), 'avg_power': (16, 20), 'lo_leakage': (0, 20), 'mask_margin': (0, 20), 'obw': (0, 20), 'spectral_flatness': (0, 20), 'freq_error': (0, 20), 'phase_noise': (-20, 20)}
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2462 B 11 BW-20 ANTENNA-0
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[INFO] 17:50:38 __init__.py:97 Set the port config for component: WLAN_2G RX
+[DEBUG] 17:50:38 __init__.py:103 Port mapping: [u'VSG0:2', u'VSG0:3']
+[DEBUG] 17:50:38 __init__.py:104 Path loss: [<graphyte.port_config.PathlossTable object at 0x02402FB0>, <graphyte.port_config.PathlossTable object at 0x02411030>]
+[INFO] 17:50:38 anritsu_mt8870a.py:116 Inst _SetPortConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[INFO] 17:50:38 anritsu_mt8870a.py:128 S-SISO
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: CONF:SRW:SEGM:PORT PORT3
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2462 B 11 BW-20 ANTENNA-1
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 graphyte.py:180 Running test: 
+WLAN WLAN_2G RX 2462 B 11 BW-20 ANTENNA-01
+[INFO] 17:50:38 graphyte.py:173 Set RF type: WLAN
+[DEBUG] 17:50:38 __init__.py:94 The port config is the same, ignored
+[INFO] 17:50:38 sample_dut.py:53 DUT Wlan RxConfig
+[INFO] 17:50:38 anritsu_mt8870a.py:195 Wlan RxConfig
+[INFO] 17:50:38 sample_dut.py:58 DUT Wlan RxClearResult
+[INFO] 17:50:38 anritsu_mt8870a.py:201 Wlan RxGenerate. Rx num packets: 100, power level: -90
+[INFO] 17:50:38 sample_dut.py:61 DUT Wlan RxGetResult
+[INFO] 17:50:38 anritsu_mt8870a.py:204 Wlan RxStop
+[INFO] 17:50:38 utils.py:270 Get result after 0 retries
+[INFO] 17:50:38 anritsu_mt8870a.py:155 Inst UnlockInstrument
+[INFO] 17:50:38 anritsu_mt8870a.py:45 Inst Terminate
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: *RST
+[INFO] 17:50:38 sample_dut.py:28 DUT Terminate
+[INFO] 17:50:38 graphyte.py:150 All tests are pass? True
+[INFO] 17:50:38 anritsu_mt8870a.py:155 Inst UnlockInstrument
+[INFO] 17:50:38 anritsu_mt8870a.py:45 Inst Terminate
+[DEBUG] 17:50:38 tcpip.py:102 TCPIP Write: *RST
+[INFO] 17:50:38 sample_dut.py:28 DUT Terminate
